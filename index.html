@@ -48,16 +48,19 @@
   </nav>
   
   <div id="fullpage">      
-    <div class="section" id="section0">  
+    <div class="section" id="section0">
+      <!-- <div id="particles-js"></div> -->
+      <div id="head">
+        <div class="intro">
+          <div class="showcase">Hello, my name is <span class="promote">Kevin</span>.</div>
+          <div class="showcase mb-4">I am a semi-full stack developer.</div>
+          <a href="#secondSection" class="text-info">
+            <div class="square-btn" id="moveSectionDown">Learn More <i class="ml-2 fas fa-arrow-right"></i></div>
+          </a>
+        </div>
+      </div>
       <div id="particles-js"></div>
-      <div id="head">      
-      <div class="intro">                                    
-        <div class="showcase" >Hello, my name is <span class="promote">Kevin</span>.</div>
-        <div class="showcase mb-4">I am a semi-full stack developer.</div>
-          <a href="#secondSection" class="text-info"><div class="square-btn" id="moveSectionDown">Learn More <i class="ml-2 fas fa-arrow-right"></i></div></a>              
-      </div> 
-    </div>       
-    </div>  
+    </div>
     <div class="section" id="section1">
       <div class="intro">
         <img src="img/kf.png" class="headshot" alt="kf" />
@@ -97,7 +100,7 @@
     <div class="section" id="section2">
       <div class="intro">
         <h1><i class="fa fa-code"></i></h1>
-        <p class="emphasis">View some of my projects.</p>
+        <p class="emphasis">View some of my projects below.</p>
       </div>
     </div>
     <div class="section" id="section3">
@@ -106,49 +109,57 @@
           <div class="col-1"></div>
           <div class="col-10">
             <div class="slide" id="slide1">
-              <div class="card-deck mx-5 my-5">
-                  <div class="card" style="width: 18rem;">
-                      <img class="card-img-top card-pic" src="./img/ff.png" alt="">
-                      <div class="card-body">
+              <div class="card-deck mx-5 my-5 card-div">
+                  <div class="card bg-light">
+                      <img class="card-img-top card-pic mx-auto" src="./img/ff.png" alt="">
+                      <div class="card-body border">
                         <h3 class="card-title">Food Finder</h3>
-                        <p class="card-text">A simple site utilizing multiple API's to display results.</p>
+                        <h4 class="card-text">A simple site utilizing multiple API's to display results.</h4>
                         <a href="https://Amous10.github.io/Food-Finder/index.html" target="_blank" class="btn btn-info">View It</a>
-                        <p class="card-text"><small class="text-muted">JavaScript | API</small></p>
+                        <h5 class="card-text pt-4"><small class="text-muted">JavaScript | API</small></p>
                       </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top card-pic" src="./img/vader.svg" alt="">
-                        <div class="card-body">
+              </div>
+            </div>
+            <div class="slide" id="slide2">
+              <div class="card-deck mx-5 my-5 card-div">
+                    <div class="card bg-light">
+                        <img class="card-img-top card-pic mx-auto" src="./img/vader.svg" alt="">
+                        <div class="card-body border">
                           <h3 class="card-title">Star Wars</h3>
-                          <p class="card-text">Star Wars RPG is a simple game built upon JavaScript as an introduction to jQuery.</p>
+                          <h4 class="card-text">Star Wars RPG is a simple game built upon JavaScript as an introduction to jQuery.</h4>
                           <a href="https://bootcampkevin.github.io/Star-Wars-RPG/index.html" target="_blank" class="btn btn-info">Play It</a>
-                          <p class="card-text"><small class="text-muted">JavaScript | jQuery</small></p>
+                          <h5 class="card-text pt-4"><small class="text-muted">JavaScript | jQuery</small></p>
                         </div>
                       </div>
               </div>
             </div>
-            <div class="slide" id="slide2">
-                <div class="card-deck mx-5 my-5">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top card-pic" src="./img/star.png" alt="">
-                        <div class="card-body">
+            <div class="slide" id="slide3">
+                <div class="card-deck mx-5 my-5 card-div">
+                    <div class="card bg-light">
+                        <img class="card-img-top card-pic mx-auto" src="./img/star.png" alt="">
+                        <div class="card-body border">
                           <h3 class="card-title">Giphstar</h3>
-                          <p class="card-text">A simple site utilizing the Giphy API.</p>
+                          <h4 class="card-text">A simple site utilizing the Giphy API.</h4>
                           <a href="https://bootcampkevin.github.io/Giphstar/index.html" target="_blank" class="btn btn-info">View It</a>
-                          <p class="card-text"><small class="text-muted">JavaScript | API</small></p>
-                        </div>
-                      </div>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top card-pic" src="./img/scissors.svg" alt="">
-                        <div class="card-body">
-                          <h3 class="card-title">Rock Paper Scissors</h3>
-                          <p class="card-text">A multi-player game utilizing firebase's real-time events. Requires 2 players.</p>
-                          <a href="https://bootcampkevin.github.io/RPS-Multiplayer/index.html" target="_blank" class="btn btn-info">Play It</a>
-                          <p class="card-text"><small class="text-muted">JavaScript | Firebase</small></p>
+                          <h5 class="card-text pt-4"><small class="text-muted">JavaScript | API</small></p>
                         </div>
                       </div>
                   </div>
             </div>
+            <div class="slide" id="slide4">
+              <div class="card-deck mx-5 my-5 card-div">
+                  <div class="card bg-light">
+                      <img class="card-img-top card-pic mx-auto" src="./img/scissors.svg" alt="">
+                      <div class="card-body border">
+                        <h3 class="card-title">Rock Paper Scissors</h3>
+                        <h4 class="card-text">A multi-player game utilizing firebase's real-time events. Requires 2 players.</h4>
+                        <a href="https://bootcampkevin.github.io/RPS-Multiplayer/index.html" target="_blank" class="btn btn-info">Play It</a>
+                        <p class="card-text"><small class="text-muted">JavaScript | Firebase</small></p>
+                      </div>
+                    </div>
+                </div>
+          </div>
           </div>
           <div class="col-1"></div>
         </div>
@@ -157,9 +168,12 @@
     <div class="section" id="section4">
       <div class="intro">
         <div class="w-100">
-          <h1 class="mb-0">Kevin <span class="minor">is in</span>
+          <h1 class="mb-0 d-none d-sm-block">Kevin <span class="minor">is in</span>
             <span class="text-info">Bootcamp</span>
           </h1>
+          <h2 class="mb-0 d-block d-sm-none">Kevin <span class="minor">is in</span>
+            <span class="text-info">Bootcamp</span>
+          </h2>
           <div class="subheading mb-5">92 W Vaughn Ave, Gilbert, AZ 85233 ·
             <a href="mailto:kflan3000@gmail.com">kflan3000@gmail.com</a>
           </div>

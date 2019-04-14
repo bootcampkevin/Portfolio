@@ -116,9 +116,10 @@ p{
     transition: all 600ms ease;
 }
 #section2{
-	background-image: url(../img/bg1.jpg);
+	background-image: url(../img/laptop.jpg);
 	background-size: cover;
 	/* background-attachment: fixed; */
+	
 	
 }
 #section2 img {
@@ -175,8 +176,11 @@ p{
 }
 canvas {
 	z-index: -1;
-	max-height: 300px;
-	
+	max-height: 200px;	
+ }
+ .card-div {
+	 max-height: 28rem;
+	 /* overflow-y: hidden; 	  */
  }
  #head{
 	 z-index: 11;
