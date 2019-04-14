@@ -47,8 +47,31 @@ $(document).ready(function() {
   });
 
   particlesJS.load('particles-js', 'particles.json', function() {
-    console.log('particles.js loaded - callback');
+    // console.log('particles.js loaded - callback');
   });
 
-
+  function sendMail() {
+    // e.preventDefault();
+    
+    // let e = $('#email').val();
+    // console.log(e);
+    // let m = $('#message').val();
+    // console.log(m);
+    // let msg = e + m;
+    // console.log($('form'));
+    
+    // $.ajax({
+    //   url: 'https://formspree.io/kflan3000@gmail.com',
+    //   method: 'POST',
+    //   // data: { message: msg },
+    //   data:  msg,
+    //   dataType: 'json'
+    // }).done(function(response) {
+    //   // $('#success').addClass('expand');
+    //   console.log('sent');
+    //   // $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
+    // });
+  }
+  $('#submit-btn').on('click', sendMail);
+  
 });
